@@ -152,7 +152,7 @@ main #planes .container .row .col-4 h3{
     padding-bottom: 40px;
 }
 
-main #destinos .container {
+main #destinos #container {
     width: 1200px;
     margin: 0 auto;
 }
