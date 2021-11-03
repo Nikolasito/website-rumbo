@@ -152,14 +152,22 @@ main #planes .container .row .col-4 h3{
     padding-bottom: 40px;
 }
 
-main #destinos .container h2 {
+main #destinos .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main #destinos #container h2 {
     color: #e8f00c;
     font-size: 50px;
 }
 
-main #destinos .container.row{
+main #destinos #container .row{
     display: flex;
     justify-content: space-around;
+    
+    align-items: center;
+    margin-top: 60px;
 } 
 
 main #destinos .row .col-6 h3{
